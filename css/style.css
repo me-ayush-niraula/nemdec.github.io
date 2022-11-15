@@ -244,16 +244,19 @@ button {
     text-align: center;
 }
 .contact_menu li{
-    float: left;
+    float: right;
     font-size: 18px;
     color: #060606;
     padding: 0px 20px;
 }
 .contact_menu li a{
     color: #060606;
+    padding: 10px;
 }
 .contact_menu li a:hover{
-    color: #0c426e;
+    color: white;
+    background-color: #0f6e0c;
+    
 }
 img.padding_right_10 {
     padding-right: 20px;
@@ -264,8 +267,11 @@ img.padding_right_10 {
     display: flex;
 }
 .logo {
-    width: 33%;
+    width: 14%;
     float: left;
+    margin-left: 20px;
+   
+
 }
 .menu_text {
     width: 10%;
@@ -301,7 +307,7 @@ img.padding_right_10 {
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color: #0f6e0c;;
+    background-color: #4e6e4d;;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -495,9 +501,9 @@ img.padding_right_10 {
 
 
 
-
-
-
+.fulltime{
+    margin-bottom: 30px;
+}
 
 
 
@@ -540,13 +546,13 @@ margin-left: 5%;
     text-align: center;
     
     /* padding: 20px; */
-    padding: 10px auto;
+    /* padding: 10px auto;
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
     color: black;
     float: left;
-}
+} */
 
 .download a:hover{
     color: black;
@@ -749,6 +755,47 @@ margin-left: 5%;
     background-color: #0f6e0c;
     cursor: pointer;
 }
+
+
+.choose_box1 {
+    width: 100%;
+    padding: 40px 20px;
+    height: 100%;
+}
+.choose_box1:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* .ggg{
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+.clientrow img{
+height: 100px;
+}
+
+
+
+.moretable{
+    margin-top: 20px;
+}
+
+
+
+
+
 .choose_box:hover .number_text{
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -1042,6 +1089,55 @@ input.Enter_text::placeholder {
     float: left;
     border-bottom: 1px solid #ffffff;
 }
+
+
+
+
+
+
+
+
+.teamrow{
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+   
+}
+
+
+.teamrow .col{
+    align-self: center;
+    justify-self: center;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.legal_down{
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid #0f6e0c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+
+.legal_down:hover{
+transform: scale(1.1);
+}
+
 
 .smGlobalBtn {
     /* global button class */
